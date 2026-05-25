@@ -30,7 +30,7 @@ jobs:
 
       - name: Run script
         run: |
-          python scripts/generate_data.py
+          python parse_gtfs.py
 
       - name: Commit versions.json
         if: steps.check.outputs.changed == 'true'
