@@ -33,6 +33,7 @@ jobs:
           python scripts/generate_data.py
 
       - name: Commit versions.json
+        if: steps.check.outputs.changed == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -46,12 +47,14 @@ jobs:
 
       - name: Generate release tag
         id: tag
+        if: steps.check.outputs.changed == 'true'
         run: |
-          TAG="daily-$(date +'%Y%m%d-%H%M')"
+          TAG="data-$(date +'%Y%m%d')"
           echo "tag=$TAG" >> $GITHUB_OUTPUT
 
       - name: Create Release
         uses: softprops/action-gh-release@v2
+        if: steps.check.outputs.changed == 'true'
         with:
           tag_name: ${{ steps.tag.outputs.tag }}
           name: Daily Release ${{ steps.tag.outputs.tag }}
@@ -61,3 +64,12 @@ jobs:
 
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      
+      - name: Cleanup old releases
+        if: steps.check.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh release list --limit 100 --json tagName \
+            | jq -r '.[10:] | .[].tagName' \
+            | xargs -I {} sh -c 'gh release delete {} --yes --cleanup-tag'

@@ -17,6 +17,13 @@ def get_file_hash(file_bytes):
     """Calcola l'hash MD5 del contenuto scompattato."""
     return hashlib.md5(file_bytes).hexdigest()
 
+
+def set_github_output(key, value):
+    path = os.environ.get("GITHUB_OUTPUT", "")
+    if path:
+        with open(path, "a") as f:
+            f.write(f"{key}={value}\n")
+
 def main(compress:bool=True):
     os.makedirs(OUTPUT_DIR, exist_ok=True)
 
@@ -29,6 +36,7 @@ def main(compress:bool=True):
     print(f"Scaricando GTFS da {GTFS_URL}...")
     response = requests.get(GTFS_URL)
     response.raise_for_status()
+    changed_any = False
 
     with zipfile.ZipFile(io.BytesIO(response.content)) as z:
         for filename in z.namelist():
@@ -70,8 +78,11 @@ def main(compress:bool=True):
                 output_path = os.path.join(OUTPUT_DIR, filename)
                 with open(output_path, 'wb') as f:
                     f.write(file_bytes)
-            
 
+            if(changed): changed_any = True
+            
+    
+    set_github_output("changed", str(changed_any))
     # Salva il file delle versioni
     with open(VERSIONS_FILE, 'w', encoding='utf-8') as f:
         json.dump(versions, f, indent=4)
