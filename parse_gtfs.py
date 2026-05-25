@@ -31,6 +31,7 @@ def main(compress:bool=True):
         with open(VERSIONS_FILE, 'r', encoding='utf-8') as f:
             versions = json.load(f)
     else:
+        print("No versions file")
         versions = {}
 
     print(f"Scaricando GTFS da {GTFS_URL}...")
@@ -81,8 +82,10 @@ def main(compress:bool=True):
 
             if(changed): changed_any = True
             
-    
-    set_github_output("changed", str(changed_any))
+    if (changed_any):
+        set_github_output("changed", "true")
+    else:
+        set_github_output("changed", "false")
     # Salva il file delle versioni
     with open(VERSIONS_FILE, 'w', encoding='utf-8') as f:
         json.dump(versions, f, indent=4)
