@@ -1,9 +1,9 @@
-name: Nightly Release
+name: Nightly Data Update
 
 on:
   schedule:
     # 03:00 UTC ogni giorno
-    - cron: "0 3 * * *"
+    - cron: "0 2 * * *"
 
   # opzionale: permette lancio manuale
   workflow_dispatch:
@@ -22,7 +22,7 @@ jobs:
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
-          python-version: "3.11"
+          python-version: "3.12"
 
       - name: Install dependencies
         run: |
@@ -32,6 +32,10 @@ jobs:
         id: check
         run: |
           python parse_gtfs.py
+      
+      - name: Inspect public_data
+        run: |
+          ls -la public_data
 
       - name: Commit versions.json
         if: steps.check.outputs.changed == 'true'
