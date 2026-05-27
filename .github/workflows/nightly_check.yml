@@ -3,7 +3,7 @@ name: Nightly Data Update
 on:
   schedule:
     # 03:00 UTC ogni giorno
-    - cron: "0 2 * * *"
+    - cron: '44 23 * * *'
 
   # opzionale: permette lancio manuale
   workflow_dispatch:
