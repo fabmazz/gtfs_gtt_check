@@ -5,14 +5,14 @@
         "version_int": 0
     },
     "calendar.txt": {
-        "hash": "ebeaaa772b57cd81db45dfa5956195b6",
-        "last_modified": "2026-05-27T06:37:28+00:00",
-        "version_int": 2
+        "hash": "fb3f63e57df09612711ea5ac17909f20",
+        "last_modified": "2026-05-28T01:25:04+00:00",
+        "version_int": 3
     },
     "calendar_dates.txt": {
-        "hash": "256121d861fd6707f0a49c8b32aa9c87",
-        "last_modified": "2026-05-27T06:37:28+00:00",
-        "version_int": 2
+        "hash": "584e69169c30f70f61d8ecdca65775d2",
+        "last_modified": "2026-05-28T01:25:04+00:00",
+        "version_int": 3
     },
     "fare_attributes.txt": {
         "hash": "e205ad05d08e9ec7577543a6e63a3baf",
@@ -35,9 +35,9 @@
         "version_int": 0
     },
     "shapes.txt": {
-        "hash": "b745cfc6baa34ed910b628c6b1f8448a",
-        "last_modified": "2026-05-27T06:37:28+00:00",
-        "version_int": 2
+        "hash": "c3305fac57f996ffe9beb026270dd3e2",
+        "last_modified": "2026-05-28T01:25:04+00:00",
+        "version_int": 3
     },
     "stops.txt": {
         "hash": "c792cd1f42bb8c8237f1402d3e81e670",
@@ -50,9 +50,9 @@
         "version_int": 0
     },
     "stop_times.txt": {
-        "hash": "e37f9bc4460b7493ee127d1df85bc703",
-        "last_modified": "2026-05-27T06:37:29+00:00",
-        "version_int": 2
+        "hash": "29e7131cf7241c431ca35da88cde5ea1",
+        "last_modified": "2026-05-28T01:25:05+00:00",
+        "version_int": 3
     },
     "timetables.txt": {
         "hash": "bb84d8f280cc087fb6e20aa45ec55b83",
@@ -70,9 +70,9 @@
         "version_int": 0
     },
     "trips.txt": {
-        "hash": "c2d736c3758bd549d91acac205956e6e",
-        "last_modified": "2026-05-27T06:37:32+00:00",
-        "version_int": 2
+        "hash": "528bbb857eb4d79434a0abe8dc9a9260",
+        "last_modified": "2026-05-28T01:25:08+00:00",
+        "version_int": 3
     },
     "trips_booking.txt": {
         "hash": "ae84f0680d75f61200e9066cd2758fb9",
@@ -80,9 +80,9 @@
         "version_int": 0
     },
     "vehicles.txt": {
-        "hash": "2a81d4dd07658610701f5c3877f4f86b",
-        "last_modified": "2026-05-27T06:37:32+00:00",
-        "version_int": 2
+        "hash": "26ba66329cc2b25092c57606e8313d75",
+        "last_modified": "2026-05-28T01:25:08+00:00",
+        "version_int": 3
     },
     "vehicle_categories.txt": {
         "hash": "fd3d65b2d2a69c5c6224086a08e8f072",
