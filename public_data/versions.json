@@ -5,14 +5,14 @@
         "version_int": 0
     },
     "calendar.txt": {
-        "hash": "10dd4428625a0bb618a10076ce82ca2f",
-        "last_modified": "2026-06-20T01:50:47+00:00",
-        "version_int": 12
+        "hash": "068145c4e05372d9360b1032a7161ac4",
+        "last_modified": "2026-06-27T01:34:03+00:00",
+        "version_int": 13
     },
     "calendar_dates.txt": {
-        "hash": "bbdea645f9b4c20de8d58ff672bd13e6",
-        "last_modified": "2026-06-20T01:50:47+00:00",
-        "version_int": 12
+        "hash": "ce1884420bb8a155566fe23e746a2c4f",
+        "last_modified": "2026-06-27T01:34:03+00:00",
+        "version_int": 13
     },
     "fare_attributes.txt": {
         "hash": "e205ad05d08e9ec7577543a6e63a3baf",
@@ -25,44 +25,44 @@
         "version_int": 0
     },
     "feed_info.txt": {
-        "hash": "469007aa45d011ff6b1b93830125655d",
-        "last_modified": "2026-06-20T01:50:48+00:00",
-        "version_int": 11
+        "hash": "9d5a3df6908c3377be3a587f719cad4e",
+        "last_modified": "2026-06-27T01:34:03+00:00",
+        "version_int": 12
     },
     "routes.txt": {
-        "hash": "903268320b87e98999a6f8639897ab51",
-        "last_modified": "2026-06-12T02:00:05+00:00",
-        "version_int": 3
+        "hash": "bf3a2f80984583ae5aa1103330d3e810",
+        "last_modified": "2026-06-27T01:34:03+00:00",
+        "version_int": 4
     },
     "shapes.txt": {
-        "hash": "15cb5383eefebb9f757a03bbf0e460f6",
-        "last_modified": "2026-06-20T01:50:48+00:00",
-        "version_int": 12
+        "hash": "6990f43b9aa4aa91496af864d6ae69f1",
+        "last_modified": "2026-06-27T01:34:03+00:00",
+        "version_int": 13
     },
     "stops.txt": {
-        "hash": "5bcda59608f859ff0e07403b5afd01fe",
-        "last_modified": "2026-06-20T01:50:48+00:00",
-        "version_int": 7
+        "hash": "cf5f6ffb925dae445e1c04817a6b08f1",
+        "last_modified": "2026-06-27T01:34:03+00:00",
+        "version_int": 8
     },
     "stop_attributes.txt": {
-        "hash": "2cd2aa2bd14c076bd9d2642829b326db",
-        "last_modified": "2026-06-12T02:00:05+00:00",
-        "version_int": 1
+        "hash": "ff4cd90eba17b7ecb31d7fc892402976",
+        "last_modified": "2026-06-27T01:34:03+00:00",
+        "version_int": 2
     },
     "stop_times.txt": {
-        "hash": "3475ed8f0aa254413f4a06d3e3c62c61",
-        "last_modified": "2026-06-20T01:50:48+00:00",
-        "version_int": 12
+        "hash": "5b08246a14fd813536ee15697e699931",
+        "last_modified": "2026-06-27T01:34:03+00:00",
+        "version_int": 13
     },
     "timetables.txt": {
-        "hash": "2811ba4f03afefd920cfc23498d97b6d",
-        "last_modified": "2026-06-20T01:50:51+00:00",
-        "version_int": 11
+        "hash": "8880fc7a33edfbbccb07dce4b962f52a",
+        "last_modified": "2026-06-27T01:34:06+00:00",
+        "version_int": 12
     },
     "timetable_pages.txt": {
-        "hash": "0c9549fac85deb2e28287645a88716db",
-        "last_modified": "2026-06-12T02:00:08+00:00",
-        "version_int": 3
+        "hash": "35f5f0a4696b5926d4a4c069aed57f93",
+        "last_modified": "2026-06-27T01:34:06+00:00",
+        "version_int": 4
     },
     "timetable_stop_order.txt": {
         "hash": "89dfcc2334165f3dc47c7a8329d411f4",
@@ -70,9 +70,9 @@
         "version_int": 0
     },
     "trips.txt": {
-        "hash": "1c7e9d1019e63ea4284d6856061b9727",
-        "last_modified": "2026-06-20T01:50:51+00:00",
-        "version_int": 12
+        "hash": "6fa24c2de828b02ac75a7f936cac4e98",
+        "last_modified": "2026-06-27T01:34:06+00:00",
+        "version_int": 13
     },
     "trips_booking.txt": {
         "hash": "ae84f0680d75f61200e9066cd2758fb9",
@@ -80,9 +80,9 @@
         "version_int": 0
     },
     "vehicles.txt": {
-        "hash": "4f0620249e9753f34368b55f6f1e1cab",
-        "last_modified": "2026-06-20T01:50:51+00:00",
-        "version_int": 12
+        "hash": "a40f8a169275dd53e37ba978969ea8f7",
+        "last_modified": "2026-06-27T01:34:06+00:00",
+        "version_int": 13
     },
     "vehicle_categories.txt": {
         "hash": "fd3d65b2d2a69c5c6224086a08e8f072",
