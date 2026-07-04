@@ -5,14 +5,14 @@
         "version_int": 0
     },
     "calendar.txt": {
-        "hash": "5123b8e286e205e740981a380a5e3186",
-        "last_modified": "2026-07-03T01:15:59+00:00",
-        "version_int": 16
+        "hash": "aae5f0d1c8ffd2bc5184b2a1b506f33f",
+        "last_modified": "2026-07-04T01:15:21+00:00",
+        "version_int": 17
     },
     "calendar_dates.txt": {
-        "hash": "c9b1f5142c7cb34cc00ddf4745ba7db7",
-        "last_modified": "2026-07-03T01:15:59+00:00",
-        "version_int": 16
+        "hash": "475239284fe73640b2744c8b1cf566f9",
+        "last_modified": "2026-07-04T01:15:21+00:00",
+        "version_int": 17
     },
     "fare_attributes.txt": {
         "hash": "e205ad05d08e9ec7577543a6e63a3baf",
@@ -25,9 +25,9 @@
         "version_int": 0
     },
     "feed_info.txt": {
-        "hash": "d7217799a53b98b58f42b86868c1ec27",
-        "last_modified": "2026-07-03T01:15:59+00:00",
-        "version_int": 15
+        "hash": "6c7a97063c1e3a8b4a91ec0c4e1c0e26",
+        "last_modified": "2026-07-04T01:15:21+00:00",
+        "version_int": 16
     },
     "routes.txt": {
         "hash": "e1e5029d0b74078674fd429503e6fc47",
@@ -35,14 +35,14 @@
         "version_int": 6
     },
     "shapes.txt": {
-        "hash": "76e990fe1eff3f753e0abe5cf3b6b37b",
-        "last_modified": "2026-07-03T01:15:59+00:00",
-        "version_int": 16
+        "hash": "3d6eeea7223ceecbce793a38bb066506",
+        "last_modified": "2026-07-04T01:15:21+00:00",
+        "version_int": 17
     },
     "stops.txt": {
-        "hash": "2665d1be9227ac644e5d32a3cc51868c",
-        "last_modified": "2026-07-03T01:15:59+00:00",
-        "version_int": 10
+        "hash": "3ac8ccdd0d2a6b8484a8c7d6c1a9b5fc",
+        "last_modified": "2026-07-04T01:15:21+00:00",
+        "version_int": 11
     },
     "stop_attributes.txt": {
         "hash": "aeffed2c74819284b4c6dd553c7e51ff",
@@ -50,14 +50,14 @@
         "version_int": 3
     },
     "stop_times.txt": {
-        "hash": "4d3c2e8194320c4ae918ee4c818dee3b",
-        "last_modified": "2026-07-03T01:15:59+00:00",
-        "version_int": 16
+        "hash": "53aca887a79b3665090438eb6d9685cf",
+        "last_modified": "2026-07-04T01:15:22+00:00",
+        "version_int": 17
     },
     "timetables.txt": {
-        "hash": "54d46878f11fd96c3625232a840a3330",
-        "last_modified": "2026-07-03T01:16:02+00:00",
-        "version_int": 15
+        "hash": "c47b98562e9c14f64e723c7a739f34b3",
+        "last_modified": "2026-07-04T01:15:24+00:00",
+        "version_int": 16
     },
     "timetable_pages.txt": {
         "hash": "1d2ee4fa1d6f9aa809c854a67d6707a0",
@@ -70,9 +70,9 @@
         "version_int": 0
     },
     "trips.txt": {
-        "hash": "5577aba2768e6c275e25d7be3da5d579",
-        "last_modified": "2026-07-03T01:16:02+00:00",
-        "version_int": 16
+        "hash": "2fa764b62215870809b8245f009696d7",
+        "last_modified": "2026-07-04T01:15:24+00:00",
+        "version_int": 17
     },
     "trips_booking.txt": {
         "hash": "ae84f0680d75f61200e9066cd2758fb9",
