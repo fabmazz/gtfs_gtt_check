@@ -5,14 +5,14 @@
         "version_int": 0
     },
     "calendar.txt": {
-        "hash": "e78f834a65d0b6e6e94ff8d1d5c06afa",
-        "last_modified": "2026-08-14T00:42:24+00:00",
-        "version_int": 41
+        "hash": "a091fbd5813ee8e11bdc588a6ef40915",
+        "last_modified": "2026-08-20T23:58:16+00:00",
+        "version_int": 42
     },
     "calendar_dates.txt": {
-        "hash": "ad318da4cea8386cd6c54ef2e0066468",
-        "last_modified": "2026-08-14T00:42:24+00:00",
-        "version_int": 41
+        "hash": "9eb2541a1dde590415d86fec5fa57244",
+        "last_modified": "2026-08-20T23:58:16+00:00",
+        "version_int": 42
     },
     "fare_attributes.txt": {
         "hash": "e205ad05d08e9ec7577543a6e63a3baf",
@@ -25,24 +25,24 @@
         "version_int": 0
     },
     "feed_info.txt": {
-        "hash": "f6ec3112566f34cab0379201b6ccf105",
-        "last_modified": "2026-08-14T00:42:24+00:00",
-        "version_int": 40
+        "hash": "1e57d99cf8320ccc5675e00e01ce9428",
+        "last_modified": "2026-08-20T23:58:16+00:00",
+        "version_int": 41
     },
     "routes.txt": {
-        "hash": "ef89443cea6c89a3484b0821437f8d82",
-        "last_modified": "2026-08-05T01:03:41+00:00",
-        "version_int": 10
+        "hash": "87ff9eab140d0046d4164b455799228d",
+        "last_modified": "2026-08-20T23:58:16+00:00",
+        "version_int": 11
     },
     "shapes.txt": {
-        "hash": "bd0949fba1bf330032a56f622912d395",
-        "last_modified": "2026-08-14T00:42:24+00:00",
-        "version_int": 40
+        "hash": "238e0d27ead70095130659cb679e72e4",
+        "last_modified": "2026-08-20T23:58:16+00:00",
+        "version_int": 41
     },
     "stops.txt": {
-        "hash": "df663f15716ed7da0be2a611f79e51c5",
-        "last_modified": "2026-08-13T00:43:18+00:00",
-        "version_int": 29
+        "hash": "4dc616fa4bf2780c0f4e619d73b49eb9",
+        "last_modified": "2026-08-20T23:58:16+00:00",
+        "version_int": 30
     },
     "stop_attributes.txt": {
         "hash": "3f96d2ff730355e2263fcf2517340eae",
@@ -50,29 +50,29 @@
         "version_int": 6
     },
     "stop_times.txt": {
-        "hash": "62c527c0583232f856b0a5f6b88749e0",
-        "last_modified": "2026-08-14T00:42:25+00:00",
-        "version_int": 41
+        "hash": "7b12a64fc021f11831b0a11cc431b55f",
+        "last_modified": "2026-08-20T23:58:17+00:00",
+        "version_int": 42
     },
     "timetables.txt": {
-        "hash": "512ea05dcf85e8d08cddf1b1189a56a5",
-        "last_modified": "2026-08-14T00:42:26+00:00",
-        "version_int": 40
+        "hash": "01816e96595e115de76f998ba59d34a0",
+        "last_modified": "2026-08-20T23:58:20+00:00",
+        "version_int": 41
     },
     "timetable_pages.txt": {
-        "hash": "c41e7ea100fc6988c8ff23d324768e2c",
-        "last_modified": "2026-08-05T01:03:44+00:00",
-        "version_int": 9
+        "hash": "b65eff3bad40709975771b3486940e7b",
+        "last_modified": "2026-08-20T23:58:20+00:00",
+        "version_int": 10
     },
     "timetable_stop_order.txt": {
-        "hash": "bbca6368dca02af8042fa38efe24fa8c",
-        "last_modified": "2026-08-05T01:03:44+00:00",
-        "version_int": 4
+        "hash": "18b2adb0e0fb52d8d5f774ee6bbcfcac",
+        "last_modified": "2026-08-20T23:58:20+00:00",
+        "version_int": 5
     },
     "trips.txt": {
-        "hash": "ad71ec323dd03a114b3bc64b41df671f",
-        "last_modified": "2026-08-14T00:42:26+00:00",
-        "version_int": 39
+        "hash": "9da5081b16ee1c274408ef6d8fa9e877",
+        "last_modified": "2026-08-20T23:58:20+00:00",
+        "version_int": 40
     },
     "trips_booking.txt": {
         "hash": "ae84f0680d75f61200e9066cd2758fb9",
@@ -80,9 +80,9 @@
         "version_int": 0
     },
     "vehicles.txt": {
-        "hash": "a2550ae4b0f02db8e1edd00421cc17dc",
-        "last_modified": "2026-07-29T01:07:48+00:00",
-        "version_int": 19
+        "hash": "c4e75bf6fa40a830e4a7b6b9063ac015",
+        "last_modified": "2026-08-20T23:58:20+00:00",
+        "version_int": 20
     },
     "vehicle_categories.txt": {
         "hash": "d90ab450e388cf22ca40a8ed450909d5",
