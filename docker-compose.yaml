@@ -5,4 +5,4 @@ services:
     build: .
     command: python parse_gtfs.py
     volumes:
-      - ${DATA_DIR:-./public_data}:/app/public_data
+      - ${DATA_DIR:-./public_data}:/app/public_data:z
