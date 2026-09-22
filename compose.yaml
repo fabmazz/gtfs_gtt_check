@@ -1,0 +1,6 @@
+services:
+  gtfs-parser:
+    build: .
+    command: python parse_gtfs.py
+    volumes:
+      - ./public_data:/app/public_data
