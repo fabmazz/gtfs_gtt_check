@@ -1,6 +1,8 @@
+version: '3.3'
+
 services:
   gtfs-parser:
     build: .
     command: python parse_gtfs.py
     volumes:
-      - ./public_data:/app/public_data
+      - ${DATA_DIR:-./public_data}:/app/public_data

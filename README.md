@@ -2,7 +2,13 @@
 
 ## Usage with Docker Compose
 
-You can execute the one-shot command with:
+Install the default configuration file:
+
+```
+cp .env.example .env
+```
+
+Then you can execute the one-shot command with:
 
 ```
 docker compose up
@@ -35,4 +41,11 @@ public_data/
 └── versions.json
 ```
 
-The suggestion is to add the `docker compose up` in a crontab, every some minutes.
+To automatically update these files, run `docker compose up` from a crontab, every some minutes. Example:
+
+```
+$ sudo crontab -l
+
+# Run every 10 minutes
+*/10 * * * * cd /path/to/gtfs_gtt_checker && /usr/bin/docker compose up --no-color > /dev/null
+```
