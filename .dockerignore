@@ -1,0 +1,8 @@
+/Dockerfile
+/compose.yaml
+/public_data
+/.dockerignore
+/.env.example
+/.env
+/.git
+/.github
