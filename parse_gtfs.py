@@ -50,7 +50,9 @@ def main(compress:bool=True):
         versions = {}
 
     print(f"Scaricando GTFS da {GTFS_URL}...")
-    response = requests.get(GTFS_URL)
+    response = requests.get(GTFS_URL, params={
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:123.0) Gecko/20100101 Firefox/123.0"
+    })
     response.raise_for_status()
     changed_any = False
 
