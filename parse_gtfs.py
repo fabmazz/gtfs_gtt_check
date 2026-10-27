@@ -24,7 +24,8 @@ import gzip
 from pathlib import Path
 
 # Configurazione
-GTFS_URL = "https://www.gtt.to.it/open_data/gtt_gtfs.zip"
+#GTFS_URL = "https://www.gtt.to.it/open_data/gtt_gtfs.zip"
+GTFS_URL = "https://proxy.busone.app/gtt/gtfs.zip"
 OUTPUT_DIR = Path("public_data")
 VERSIONS_FILE =  OUTPUT_DIR / "versions.json"
 
@@ -50,9 +51,7 @@ def main(compress:bool=True):
         versions = {}
 
     print(f"Scaricando GTFS da {GTFS_URL}...")
-    response = requests.get(GTFS_URL, params={
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:123.0) Gecko/20100101 Firefox/123.0"
-    })
+    response = requests.get(GTFS_URL)
     response.raise_for_status()
     changed_any = False
 
