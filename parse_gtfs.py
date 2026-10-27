@@ -24,7 +24,8 @@ import gzip
 from pathlib import Path
 
 # Configurazione
-GTFS_URL = "https://www.gtt.to.it/open_data/gtt_gtfs.zip"
+#GTFS_URL = "https://www.gtt.to.it/open_data/gtt_gtfs.zip"
+GTFS_URL = "https://proxy.busone.app/gtt/gtfs.zip"
 OUTPUT_DIR = Path("public_data")
 VERSIONS_FILE =  OUTPUT_DIR / "versions.json"
 
