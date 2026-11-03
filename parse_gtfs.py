@@ -31,7 +31,7 @@ VERSIONS_FILE =  OUTPUT_DIR / "versions.json"
 
 def get_file_hash(file_bytes):
     """Calcola l'hash MD5 del contenuto scompattato."""
-    return hashlib.md5(file_bytes).hexdigest()
+    return hashlib.sha1(file_bytes).hexdigest()
 
 
 def set_github_output(key, value):
@@ -54,6 +54,8 @@ def main(compress:bool=True):
     response = requests.get(GTFS_URL)
     response.raise_for_status()
     changed_any = False
+
+    #alltables = {}
 
     with zipfile.ZipFile(io.BytesIO(response.content)) as z:
         for filename in z.namelist():
@@ -80,9 +82,8 @@ def main(compress:bool=True):
             else:
                 print(f" -> [INVARIATO] {filename}.")
 
-            # Gestione speciale per la tabella molto grande
-            #if filename == "connections.txt":
-            if(compress):
+
+            if compress:
                 output_filename = filename + ".gz"
                 output_path = os.path.join(OUTPUT_DIR, output_filename)
                 
@@ -91,14 +92,20 @@ def main(compress:bool=True):
                     f_out.write(file_bytes)
                 
             else:
-                # Tutti gli altri file standard rimangono in formato testo libero
                 output_path = os.path.join(OUTPUT_DIR, filename)
                 with open(output_path, 'wb') as f:
                     f.write(file_bytes)
 
-            if(changed): changed_any = True
+            if changed: 
+                changed_any = True
+
+            #table_name = ".".join(filename.split(".")[:-1])
+
             
     if (changed_any):
+        KEY = "zip_version"
+        ver = versions.get(KEY,-1)
+        versions[KEY] = ver +1
         set_github_output("changed", "true")
     else:
         set_github_output("changed", "false")
