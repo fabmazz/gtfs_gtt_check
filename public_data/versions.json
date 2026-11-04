@@ -1,92 +1,93 @@
 {
     "agency.txt": {
-        "hash": "81a082be1ae1417e66e90112e41070ab",
-        "last_modified": "2026-05-25T13:14:41+00:00",
-        "version_int": 0
+        "hash": "88c22b07b2a0924c770f3250a2803dad5a571089",
+        "last_modified": "2026-11-04T03:16:16+00:00",
+        "version_int": 1
     },
     "calendar.txt": {
-        "hash": "97a89381932c2450830715e8247ce514",
-        "last_modified": "2026-11-02T02:44:42+00:00",
-        "version_int": 75
+        "hash": "0766db7e5d8ba8e396af8ffdad713bda6f95ac28",
+        "last_modified": "2026-11-04T03:16:16+00:00",
+        "version_int": 76
     },
     "calendar_dates.txt": {
-        "hash": "235467eee2415a6c21871a88078c0e78",
-        "last_modified": "2026-11-02T02:44:42+00:00",
-        "version_int": 75
+        "hash": "0e71306ec959612ac12dba41574f011802329d17",
+        "last_modified": "2026-11-04T03:16:16+00:00",
+        "version_int": 76
     },
     "fare_attributes.txt": {
-        "hash": "e205ad05d08e9ec7577543a6e63a3baf",
-        "last_modified": "2026-05-25T13:14:41+00:00",
-        "version_int": 0
+        "hash": "c3afd55425e7447b13f7f088f44c6bb8a6113ffa",
+        "last_modified": "2026-11-04T03:16:16+00:00",
+        "version_int": 1
     },
     "fare_rules.txt": {
-        "hash": "18d8f39bf420f026db5830dcba6643af",
-        "last_modified": "2026-05-25T13:14:41+00:00",
-        "version_int": 0
+        "hash": "d892ff178e00c3e4d7d06e9649688fb55704157b",
+        "last_modified": "2026-11-04T03:16:16+00:00",
+        "version_int": 1
     },
     "feed_info.txt": {
-        "hash": "d41cc4b8639db846017925ec42f4a897",
-        "last_modified": "2026-11-02T02:44:42+00:00",
-        "version_int": 74
-    },
-    "routes.txt": {
-        "hash": "36addbcdd73904d381cf6fb26ae5353b",
-        "last_modified": "2026-10-29T02:52:14+00:00",
-        "version_int": 28
-    },
-    "shapes.txt": {
-        "hash": "11a168769eb75b7d86fdc3fc994574a0",
-        "last_modified": "2026-11-02T02:44:42+00:00",
-        "version_int": 70
-    },
-    "stops.txt": {
-        "hash": "4926f4ab2b968e74516d5aeb30231390",
-        "last_modified": "2026-11-02T02:44:45+00:00",
-        "version_int": 53
-    },
-    "stop_attributes.txt": {
-        "hash": "f8652e99a923c8cd598c2bec1795cf40",
-        "last_modified": "2026-10-30T02:57:25+00:00",
-        "version_int": 14
-    },
-    "stop_times.txt": {
-        "hash": "61178fdd6a24fdac5145f7820639ab09",
-        "last_modified": "2026-11-02T02:44:42+00:00",
+        "hash": "75065f5c80f84d06de5e41000e082a8543550f3f",
+        "last_modified": "2026-11-04T03:16:16+00:00",
         "version_int": 75
     },
+    "routes.txt": {
+        "hash": "1d323deae66d3761a6f6914ce73f3b001d3f0218",
+        "last_modified": "2026-11-04T03:16:16+00:00",
+        "version_int": 29
+    },
+    "shapes.txt": {
+        "hash": "6ae5c43153bc1ad5b040b30e1bbee1513c936562",
+        "last_modified": "2026-11-04T03:16:16+00:00",
+        "version_int": 71
+    },
+    "stops.txt": {
+        "hash": "9ea6d0158a6afd6db0bfd26db7b4fef03ba6dbee",
+        "last_modified": "2026-11-04T03:16:20+00:00",
+        "version_int": 54
+    },
+    "stop_attributes.txt": {
+        "hash": "66c8b7e0fb9552f7dae249daeb9df79a10fce4a6",
+        "last_modified": "2026-11-04T03:16:17+00:00",
+        "version_int": 15
+    },
+    "stop_times.txt": {
+        "hash": "96310a0258d2372988e7d89edd6666efb6278340",
+        "last_modified": "2026-11-04T03:16:17+00:00",
+        "version_int": 76
+    },
     "timetables.txt": {
-        "hash": "0d024862e945a03135a6c44b24476977",
-        "last_modified": "2026-11-02T02:44:45+00:00",
-        "version_int": 74
+        "hash": "7b163fe1c0a83fb8597a6efbe0ffafa3b99afa94",
+        "last_modified": "2026-11-04T03:16:20+00:00",
+        "version_int": 75
     },
     "timetable_pages.txt": {
-        "hash": "6fb2d5d66b594a1fc64abd1dce70f083",
-        "last_modified": "2026-10-29T02:52:16+00:00",
-        "version_int": 27
+        "hash": "cf3e48d5cf1bd8fce9583743054e4a020dc47210",
+        "last_modified": "2026-11-04T03:16:20+00:00",
+        "version_int": 28
     },
     "timetable_stop_order.txt": {
-        "hash": "18b2adb0e0fb52d8d5f774ee6bbcfcac",
-        "last_modified": "2026-09-15T01:53:47+00:00",
-        "version_int": 7
+        "hash": "258327445a375c1941acaa2f3917e6679d6e4539",
+        "last_modified": "2026-11-04T03:16:20+00:00",
+        "version_int": 8
     },
     "trips.txt": {
-        "hash": "fae2c58cd40b51bd770666fdcba67f36",
-        "last_modified": "2026-11-02T02:44:45+00:00",
-        "version_int": 73
+        "hash": "caa63e3a4207bf40e8534b569e35ae909e246806",
+        "last_modified": "2026-11-04T03:16:20+00:00",
+        "version_int": 74
     },
     "trips_booking.txt": {
-        "hash": "ae84f0680d75f61200e9066cd2758fb9",
-        "last_modified": "2026-05-25T13:14:44+00:00",
-        "version_int": 0
+        "hash": "79ee01a2240542bef77d097069369d4324cfdab2",
+        "last_modified": "2026-11-04T03:16:20+00:00",
+        "version_int": 1
     },
     "vehicles.txt": {
-        "hash": "b1050397e9be604dc02f787c243b7646",
-        "last_modified": "2026-11-02T02:44:45+00:00",
-        "version_int": 25
+        "hash": "efc1308c56828aeaa4c6982b75081dae349ac6ba",
+        "last_modified": "2026-11-04T03:16:20+00:00",
+        "version_int": 26
     },
     "vehicle_categories.txt": {
-        "hash": "bf844fe98c5aa26565c88088f009a998",
-        "last_modified": "2026-09-06T01:19:58+00:00",
-        "version_int": 3
-    }
+        "hash": "4b17042803ab1d5a08640d6cc4f202aae5e85bdd",
+        "last_modified": "2026-11-04T03:16:20+00:00",
+        "version_int": 4
+    },
+    "zip_version": 0
 }
