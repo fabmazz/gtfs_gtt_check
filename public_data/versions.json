@@ -70,9 +70,9 @@
         "version_int": 8
     },
     "trips.txt": {
-        "hash": "c411bd5e888636b33fc15566315ab6eb165da952",
-        "last_modified": "2026-11-05T03:43:52+00:00",
-        "version_int": 75
+        "hash": "901148beaa2f8e974cb42b9fdecf27e36d27e1e1",
+        "last_modified": "2026-11-06T03:39:40+00:00",
+        "version_int": 76
     },
     "trips_booking.txt": {
         "hash": "79ee01a2240542bef77d097069369d4324cfdab2",
@@ -89,5 +89,10 @@
         "last_modified": "2026-11-04T03:16:20+00:00",
         "version_int": 4
     },
-    "zip_version": 1
+    "zip_version": 2,
+    "blocks.txt": {
+        "hash": "6ba37e02532e5eba5827eac1c5717294b99b467a",
+        "last_modified": "2026-11-06T03:39:40+00:00",
+        "version_int": 0
+    }
 }
