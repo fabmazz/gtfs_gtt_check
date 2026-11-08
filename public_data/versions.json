@@ -10,9 +10,9 @@
         "version_int": 78
     },
     "calendar_dates.txt": {
-        "hash": "b939ade5f3489facd0493703efaa8439e12e8e89",
-        "last_modified": "2026-11-07T03:12:40+00:00",
-        "version_int": 78
+        "hash": "d096cde1b6c9bf58d5f93f582f107a86dc7b9069",
+        "last_modified": "2026-11-08T02:42:17+00:00",
+        "version_int": 79
     },
     "fare_attributes.txt": {
         "hash": "c3afd55425e7447b13f7f088f44c6bb8a6113ffa",
@@ -25,9 +25,9 @@
         "version_int": 1
     },
     "feed_info.txt": {
-        "hash": "5344a41ed47915e965fc5691f93f27f9e7562b24",
-        "last_modified": "2026-11-07T03:12:40+00:00",
-        "version_int": 77
+        "hash": "883bfdbed7fcaacfbeae31258e7e3d54837bb7f4",
+        "last_modified": "2026-11-08T02:42:17+00:00",
+        "version_int": 78
     },
     "routes.txt": {
         "hash": "c41cc4130c295b4fadb4df8db49353713c1e8791",
@@ -89,7 +89,7 @@
         "last_modified": "2026-11-04T03:16:20+00:00",
         "version_int": 4
     },
-    "zip_version": 3,
+    "zip_version": 4,
     "blocks.txt": {
         "hash": "5427880d7c82214888f770c848c4bb996207a015",
         "last_modified": "2026-11-07T03:12:42+00:00",
