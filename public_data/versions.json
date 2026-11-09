@@ -25,9 +25,9 @@
         "version_int": 1
     },
     "feed_info.txt": {
-        "hash": "883bfdbed7fcaacfbeae31258e7e3d54837bb7f4",
-        "last_modified": "2026-11-08T02:42:17+00:00",
-        "version_int": 78
+        "hash": "90621cca6b343cd3410b68b262dd511819b16fcf",
+        "last_modified": "2026-11-09T02:58:23+00:00",
+        "version_int": 79
     },
     "routes.txt": {
         "hash": "c41cc4130c295b4fadb4df8db49353713c1e8791",
@@ -89,7 +89,7 @@
         "last_modified": "2026-11-04T03:16:20+00:00",
         "version_int": 4
     },
-    "zip_version": 4,
+    "zip_version": 5,
     "blocks.txt": {
         "hash": "5427880d7c82214888f770c848c4bb996207a015",
         "last_modified": "2026-11-07T03:12:42+00:00",
