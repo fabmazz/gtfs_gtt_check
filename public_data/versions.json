@@ -5,14 +5,14 @@
         "version_int": 1
     },
     "calendar.txt": {
-        "hash": "f67d1e88b7b9175f2c0daafba32a4dcdf6b02ed6",
-        "last_modified": "2026-11-07T03:12:40+00:00",
-        "version_int": 78
+        "hash": "6416784f29f2fb45ea63de9d38ca82dc3307a45f",
+        "last_modified": "2026-11-10T04:47:04+00:00",
+        "version_int": 79
     },
     "calendar_dates.txt": {
-        "hash": "d096cde1b6c9bf58d5f93f582f107a86dc7b9069",
-        "last_modified": "2026-11-08T02:42:17+00:00",
-        "version_int": 79
+        "hash": "1f761f49d0fcd72edc0fdb548090c5582dd3a9f2",
+        "last_modified": "2026-11-10T04:47:04+00:00",
+        "version_int": 80
     },
     "fare_attributes.txt": {
         "hash": "c3afd55425e7447b13f7f088f44c6bb8a6113ffa",
@@ -25,24 +25,24 @@
         "version_int": 1
     },
     "feed_info.txt": {
-        "hash": "90621cca6b343cd3410b68b262dd511819b16fcf",
-        "last_modified": "2026-11-09T02:58:23+00:00",
-        "version_int": 79
+        "hash": "6bf28a3a5e433002d4310bed4ed333cff2c4383f",
+        "last_modified": "2026-11-10T04:47:04+00:00",
+        "version_int": 80
     },
     "routes.txt": {
-        "hash": "c41cc4130c295b4fadb4df8db49353713c1e8791",
-        "last_modified": "2026-11-07T03:12:40+00:00",
-        "version_int": 31
+        "hash": "425df752f84229a12283a4716763b30956a7eb37",
+        "last_modified": "2026-11-10T04:47:04+00:00",
+        "version_int": 32
     },
     "shapes.txt": {
-        "hash": "1592cd31a629335436d73d029149f5e3e393dcdb",
-        "last_modified": "2026-11-07T03:12:40+00:00",
-        "version_int": 73
+        "hash": "ebda5cf4f74b9feb2083c00acf69a2ed8a5f38cb",
+        "last_modified": "2026-11-10T04:47:04+00:00",
+        "version_int": 74
     },
     "stops.txt": {
-        "hash": "299130f790b0817179b30ce03f6d1e81870158ba",
-        "last_modified": "2026-11-07T03:12:41+00:00",
-        "version_int": 56
+        "hash": "b3076f912f50880e99fa70ba18e6434159aecd8f",
+        "last_modified": "2026-11-10T04:47:04+00:00",
+        "version_int": 57
     },
     "stop_attributes.txt": {
         "hash": "abe266f0a039372bab5bd4ad6528cddeb353ff94",
@@ -50,19 +50,19 @@
         "version_int": 16
     },
     "stop_times.txt": {
-        "hash": "5136c704e6a389bcdf83ed0a01d7ab6d1735ee42",
-        "last_modified": "2026-11-07T03:12:41+00:00",
-        "version_int": 78
+        "hash": "54a9e7855413cef5d89658770eae35641e9f9254",
+        "last_modified": "2026-11-10T04:47:05+00:00",
+        "version_int": 79
     },
     "timetables.txt": {
-        "hash": "e9182bb592d2636a1392cc540dae6c2f2f50c4a9",
-        "last_modified": "2026-11-07T03:12:42+00:00",
-        "version_int": 77
+        "hash": "5845d5f9035fa8dabde7802a0d1df08924a5bc68",
+        "last_modified": "2026-11-10T04:47:07+00:00",
+        "version_int": 78
     },
     "timetable_pages.txt": {
-        "hash": "354fd5c592b2d76dbad7aa88a2917fdd15934d3b",
-        "last_modified": "2026-11-07T03:12:42+00:00",
-        "version_int": 30
+        "hash": "3789148caeee9d71626f1002a3aa35e3248c7bbf",
+        "last_modified": "2026-11-10T04:47:07+00:00",
+        "version_int": 31
     },
     "timetable_stop_order.txt": {
         "hash": "258327445a375c1941acaa2f3917e6679d6e4539",
@@ -70,9 +70,9 @@
         "version_int": 8
     },
     "trips.txt": {
-        "hash": "6e631ae6e5078ae3a2b16d89c23b6344af96bd9a",
-        "last_modified": "2026-11-07T03:12:42+00:00",
-        "version_int": 77
+        "hash": "5cb8c0c452f4c7d1961a2b500003031791de779d",
+        "last_modified": "2026-11-10T04:47:07+00:00",
+        "version_int": 78
     },
     "trips_booking.txt": {
         "hash": "79ee01a2240542bef77d097069369d4324cfdab2",
@@ -89,10 +89,10 @@
         "last_modified": "2026-11-04T03:16:20+00:00",
         "version_int": 4
     },
-    "zip_version": 5,
+    "zip_version": 6,
     "blocks.txt": {
-        "hash": "5427880d7c82214888f770c848c4bb996207a015",
-        "last_modified": "2026-11-07T03:12:42+00:00",
-        "version_int": 1
+        "hash": "f76afb070d93d12bc202f2bef02d1c383dad3892",
+        "last_modified": "2026-11-10T04:47:07+00:00",
+        "version_int": 2
     }
 }
