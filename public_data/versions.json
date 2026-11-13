@@ -89,10 +89,10 @@
         "last_modified": "2026-11-04T03:16:20+00:00",
         "version_int": 4
     },
-    "zip_version": 7,
+    "zip_version": 8,
     "blocks.txt": {
-        "hash": "a3c5f6ea1abd0c2a8f518c331e10c0b369107265",
-        "last_modified": "2026-11-12T04:15:13+00:00",
-        "version_int": 3
+        "hash": "541c4e54ba2e67124f0d7f1a6c5fea1fb90c7f82",
+        "last_modified": "2026-11-13T03:35:24+00:00",
+        "version_int": 4
     }
 }
