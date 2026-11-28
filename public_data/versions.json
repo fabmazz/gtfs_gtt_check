@@ -5,14 +5,14 @@
         "version_int": 1
     },
     "calendar.txt": {
-        "hash": "19f05e0e69c68eb8a54ab3587cffd64cdb6623bc",
-        "last_modified": "2026-11-27T05:21:06+00:00",
-        "version_int": 86
+        "hash": "4a2e325b67c394345fbbaec70c42761589d91b5a",
+        "last_modified": "2026-11-28T04:57:27+00:00",
+        "version_int": 87
     },
     "calendar_dates.txt": {
-        "hash": "1e59b90a3f48bc266415a1b26091fd86a3e81957",
-        "last_modified": "2026-11-27T05:21:06+00:00",
-        "version_int": 89
+        "hash": "fbc206a83f6cb5f072be17fca3fd7bf2140ca212",
+        "last_modified": "2026-11-28T04:57:27+00:00",
+        "version_int": 90
     },
     "fare_attributes.txt": {
         "hash": "c3afd55425e7447b13f7f088f44c6bb8a6113ffa",
@@ -25,44 +25,44 @@
         "version_int": 1
     },
     "feed_info.txt": {
-        "hash": "cb2309cbcc8733978634a322cf3eb686b8e34216",
-        "last_modified": "2026-11-27T05:21:06+00:00",
-        "version_int": 91
+        "hash": "3b7566f37e782d6caf12029a0283d5e295d138f2",
+        "last_modified": "2026-11-28T04:57:27+00:00",
+        "version_int": 92
     },
     "routes.txt": {
-        "hash": "57d8c7fa70e457556d1e64f425c93c511ee2ad8f",
-        "last_modified": "2026-11-20T04:17:28+00:00",
-        "version_int": 33
+        "hash": "a01f7506c87c52f248183dcdc44d470605133a7f",
+        "last_modified": "2026-11-28T04:57:27+00:00",
+        "version_int": 34
     },
     "shapes.txt": {
-        "hash": "00b4005e3040c8461e2377644e79cc2cf25ad227",
-        "last_modified": "2026-11-27T05:21:06+00:00",
-        "version_int": 80
+        "hash": "7e32ff12215b473cbe9dff0aa2faf35099f4d33a",
+        "last_modified": "2026-11-28T04:57:27+00:00",
+        "version_int": 81
     },
     "stops.txt": {
-        "hash": "09c1aeeaac645fdc369849032826dafed913eddf",
-        "last_modified": "2026-11-26T05:28:02+00:00",
-        "version_int": 61
+        "hash": "38b58010ee8a3cb40d8cc3bc1ed1a8f7640914a0",
+        "last_modified": "2026-11-28T04:57:27+00:00",
+        "version_int": 62
     },
     "stop_attributes.txt": {
-        "hash": "168b68b71dde12ab8b8d0fcec0c615cce37e12ef",
-        "last_modified": "2026-11-20T04:17:28+00:00",
-        "version_int": 17
+        "hash": "b10fd948b44fef38508e170e65b62948504a09c2",
+        "last_modified": "2026-11-28T04:57:27+00:00",
+        "version_int": 18
     },
     "stop_times.txt": {
-        "hash": "93841db70e28f4739060a08af280008df5a2d371",
-        "last_modified": "2026-11-27T05:21:06+00:00",
-        "version_int": 86
+        "hash": "91d55414f0d514e646f19bedb66d1462ab5c357b",
+        "last_modified": "2026-11-28T04:57:28+00:00",
+        "version_int": 87
     },
     "timetables.txt": {
-        "hash": "838a05e787c1d9c048762987c13bbc2ba28ce662",
-        "last_modified": "2026-11-27T05:21:08+00:00",
-        "version_int": 85
+        "hash": "9f61a8c0d2b57f368dd36b43d516d29f24338901",
+        "last_modified": "2026-11-28T04:57:29+00:00",
+        "version_int": 86
     },
     "timetable_pages.txt": {
-        "hash": "739c726f1b65a247ff4add3b584510409cd4e8ac",
-        "last_modified": "2026-11-20T04:17:30+00:00",
-        "version_int": 32
+        "hash": "51219ebac7c310d95dae15c405c848de52b4b315",
+        "last_modified": "2026-11-28T04:57:29+00:00",
+        "version_int": 33
     },
     "timetable_stop_order.txt": {
         "hash": "258327445a375c1941acaa2f3917e6679d6e4539",
@@ -70,9 +70,9 @@
         "version_int": 8
     },
     "trips.txt": {
-        "hash": "b013eba3d797324efdaff395ed6b82c596da749f",
-        "last_modified": "2026-11-27T05:21:08+00:00",
-        "version_int": 85
+        "hash": "0ceb8858a1f283bc21eb88708d47f94615d2d6fc",
+        "last_modified": "2026-11-28T04:57:29+00:00",
+        "version_int": 86
     },
     "trips_booking.txt": {
         "hash": "79ee01a2240542bef77d097069369d4324cfdab2",
@@ -89,10 +89,10 @@
         "last_modified": "2026-11-20T04:17:30+00:00",
         "version_int": 5
     },
-    "zip_version": 18,
+    "zip_version": 19,
     "blocks.txt": {
-        "hash": "ddbe6cd96264101aa9591183dce86b41cdc50abd",
-        "last_modified": "2026-11-27T05:21:08+00:00",
-        "version_int": 10
+        "hash": "48ee2d56b3c3e26c511a8620de1e95cebb6788c9",
+        "last_modified": "2026-11-28T04:57:29+00:00",
+        "version_int": 11
     }
 }
